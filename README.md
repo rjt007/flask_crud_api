@@ -14,7 +14,7 @@ This is a simple Flask application that provides a REST API for performing CRUD 
 
 1. Clone the repository:
     ```
-    git clone https://github.com/your_username/your_flask_api.git
+    git clone https://github.com/rjt007/flask_crud_api.git
     ```
 2. Go to the folder:
     ```
