@@ -9,6 +9,7 @@ This is a simple Flask application that provides a REST API for performing CRUD 
 - python-dotenv==1.0.0
 - schema==0.7.5
 - certifi==2023.7.22
+- Flask-RESTful==0.3.10
 
 ## Setup
 
