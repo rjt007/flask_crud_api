@@ -1,5 +1,5 @@
-from flask import Flask, jsonify
-from routes.users import users_blueprint
+from flask import Flask
+from blueprints.users.routes import users_blueprint
 
 app = Flask(__name__)
 
