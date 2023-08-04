@@ -14,6 +14,11 @@ def serialize_id(user):
     user['_id'] = str(user['_id'])
     return user
 
+# Home route - for testing purpose
+@users_blueprint.route('/', methods=['GET'])
+def home():
+    return jsonify({'success':'true'})
+
 # Get all users
 @users_blueprint.route('/users/', methods=['GET'])
 def get_users():
